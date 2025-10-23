@@ -1,0 +1,2 @@
+first i would use procexp to target the process to see details on it deleting the processes that up afterwards
+file is open in a process so i would kill this process then continue deleting and it worked
