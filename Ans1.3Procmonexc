@@ -1,0 +1,5 @@
+1. just a filter of process name is chrome.exe
+2.filter operation is writefile
+3.filter operation is regqueryvalue
+4.ntdll.dll
+5. my cmd not using this reg path i used filter of contains hkcu and fontsize and found nothing
