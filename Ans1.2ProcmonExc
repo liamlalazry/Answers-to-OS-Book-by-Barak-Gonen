@@ -1,0 +1,1 @@
+exclude till found RegSetValue with \REGISTRY\A\{5e3ef003-a739-83ca-9a6e-689f7f0530a2}\LocalState\FontStyle && \REGISTRY\A\{5e3ef003-a739-83ca-9a6e-689f7f0530a2}\LocalState\FontFamily {not in hklm or hkcu like in the book because of uwp }
