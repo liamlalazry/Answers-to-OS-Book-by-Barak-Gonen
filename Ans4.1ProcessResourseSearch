@@ -1,0 +1,7 @@
+pycharm
+pid = 7056
+priority = 8
+handles = num is 1500 the real handle cant be seen but can see the typr like file and name like \device\afd
+D:\PyCharm Community Edition 2023.3.3\bin\pycharm64.exe
+under threads 
+also there is the priority (8) and dynamic priority (8) {for the thread ...gethandleverifier}
