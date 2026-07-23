@@ -48,3 +48,38 @@ int main()
     free(buffer);
     return 0;
 }
+
+
+//
+
+#include <iostream>
+#include <Windows.h>
+#include <fileapi.h>
+int main()
+{
+    HANDLE hFile = CreateFileA(
+        "C:\\Users\\Liam\\Downloads\\gibrish.bin",
+        GENERIC_READ,         
+        FILE_SHARE_READ,     
+        NULL,                
+        OPEN_EXISTING,        
+        FILE_ATTRIBUTE_NORMAL,
+        NULL
+    );
+    
+	char buffer[1024];
+	DWORD bytesRead;    
+    DWORD totalChars = 0;
+    DWORD numOfAChars = 0;
+    while (ReadFile(hFile, buffer, sizeof(buffer), &bytesRead, NULL) && bytesRead > 0) {
+		totalChars += bytesRead;
+        for (DWORD i = 0; i < bytesRead; ++i) {
+            if (buffer[i] == 'A') {
+                numOfAChars++;
+            }
+		}   
+    }
+	printf("Number of 'A' characters: %lu\n", numOfAChars); 
+	printf("Total characters read: %lu\n", totalChars); 
+	CloseHandle(hFile);
+    }
