@@ -1,0 +1,7 @@
+﻿  MyDll.cpp
+     Creating library C:\Users\Liam\source\repos\MyDll\x64\Release\MyDll.lib and object C:\Users\Liam\source\repos\MyDll\x64\Release\MyDll.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MyDll.vcxproj -> C:\Users\Liam\source\repos\MyDll\x64\Release\MyDll.dll

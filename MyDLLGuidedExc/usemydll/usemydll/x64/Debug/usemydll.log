@@ -1,0 +1,3 @@
+﻿  usemydll.cpp
+usemydll.obj : error LNK2019: unresolved external symbol __imp_Share referenced in function main
+C:\Users\Liam\source\repos\usemydll\x64\Debug\usemydll.exe : fatal error LNK1120: 1 unresolved externals
